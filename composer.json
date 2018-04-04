@@ -4,7 +4,7 @@
     "tags": ["RFC7807", "package", "php", "api", "rest", "error"],
     "type": "package",
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
