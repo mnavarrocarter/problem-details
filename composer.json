@@ -1,0 +1,21 @@
+{
+    "name": "mnavarrocarter/problem-details",
+    "description": "A framework agnostic RFC7807 implementation",
+    "tags": ["RFC7807", "package", "php", "api", "rest", "error"],
+    "type": "package",
+    "require": {
+        "php": ">=7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "MNC\\ProblemDetails\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matías Navarro Carter",
+            "email": "mnavarro@option.cl"
+        }
+    ]
+}
