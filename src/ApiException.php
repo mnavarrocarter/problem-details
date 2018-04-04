@@ -28,14 +28,6 @@ abstract class ApiException extends \Exception implements ApiExceptionInterface
      * @var array Extra data to include in the error thay may be of utility.
      */
     private $extra = [];
-    /**
-     * @var int
-     */
-    private $code;
-    /**
-     * @var string
-     */
-    private $message;
 
     /**
      * The url of the status codes definitions when no error type is setted.
